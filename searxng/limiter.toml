@@ -1,0 +1,9 @@
+[botdetection.ip_limit]
+link_token = true
+
+[botdetection.ip_lists]
+pass_ip = [
+  "127.0.0.1/8",
+  "::1/128"
+]
+pass_searxng_org = false
