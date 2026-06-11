@@ -1,0 +1,28 @@
+use_default_settings: true
+
+general:
+  instance_name: "Price Ranking Alternate Engine"
+  privacypolicy_url: false
+  contact_url: false
+
+search:
+  safe_search: 0
+  autocomplete: "duckduckgo"
+  formats:
+    - html
+    - json
+
+server:
+  port: 7860
+  bind_address: "0.0.0.0"
+  secret_key: "pr_secret_key_2026"
+  limiter: false
+  image_proxy: false
+
+engines:
+  - name: yahoo
+    engine: yahoo
+    shortcut: y
+    categories: general
+    timeout: 3.0
+    disabled: false
